@@ -1,1 +1,1 @@
-# manipos
+# magnipos
