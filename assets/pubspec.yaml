@@ -59,6 +59,8 @@ dependencies:
   desktop_drop: ^0.4.1
   dotted_line: ^3.2.2
   bot_toast: ^4.0.4
+  advance_infinite_scroll:
+    path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
 
   #tools and utils
   #  fl_country_code_picker: ^0.0.4
