@@ -1,5 +1,5 @@
-name: wowpos
-description: MagniPOS
+name: magnipos
+description: A complete POS for Woocommerce
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -59,8 +59,9 @@ dependencies:
   desktop_drop: ^0.4.1
   dotted_line: ^3.2.2
   bot_toast: ^4.0.4
-  advance_infinite_scroll:
+  advanced_infinite_scroll:
     path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
+#    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
 
   #tools and utils
   #  fl_country_code_picker: ^0.0.4
@@ -69,7 +70,6 @@ dependencies:
   queue: ^3.1.0+2
   numeral: ^2.0.1
   #  desktop_window: ^0.4.0
-  rename: ^2.1.1
   window_manager: ^0.3.5
   wakelock: ^0.6.2
   package_info_plus: ^4.0.2
@@ -94,6 +94,7 @@ dependencies:
   filesize: ^2.0.1
   share_plus: ^7.1.0
   process_run: ^0.13.0
+  csv: ^5.0.2
 
 
 
@@ -126,7 +127,7 @@ dependencies:
     git: https://github.com/rohitsangwan01/win_ble.git
   diacritic: ^0.1.4
   quick_usb:
-#      path: F:/ANDROID/Git Project Plugin/quick_usb
+#    path: F:/ANDROID/Git Project Plugin/quick_usb
     path: /Users/bikrammeher/Documents/packages/quick_usb
 #    path: E:/Flutter_Projects/packages/quick_usb
   quick_blue:
@@ -192,6 +193,7 @@ dev_dependencies:
   import_path_converter: ^1.0.1
   import_sorter: ^4.6.0
   build_runner: ^2.4.6
+#  rename: ^2.1.1
   getx_translator:
     git: https://github.com/bikram0000/getx_translator.git
 #    path: /Users/bikrammeher/Documents/Bikram/getx_translator
