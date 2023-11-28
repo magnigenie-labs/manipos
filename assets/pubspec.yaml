@@ -60,7 +60,8 @@ dependencies:
   dotted_line: ^3.2.2
   bot_toast: ^4.0.4
   advanced_infinite_scroll:
-    path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
+    git: https://github.com/bikram0000/advanced_infinite_scroll.git
+  #    path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
 #    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
 
   #tools and utils
@@ -107,7 +108,8 @@ dependencies:
 
   #web
   js: ^0.6.7
-  flutter_web_bluetooth: ^0.2.1
+  web_blue:
+    git: https://github.com/woodemi/web_blue.dart.git
   usb_device_web: ^1.0.0
   image_network: ^2.5.4+1
   #  fajax:
@@ -122,15 +124,17 @@ dependencies:
   flutter_star_prnt: ^2.4.1
   sunmi_printer_plus: ^2.1.1
   printing: ^5.11.0
-#  win_ble: ^1.0.1
-  win_ble:
-    git: https://github.com/rohitsangwan01/win_ble.git
+  win_ble: ^1.0.1
+#  win_ble:
+#    git: https://github.com/rohitsangwan01/win_ble.git
   diacritic: ^0.1.4
   quick_usb:
 #    path: F:/ANDROID/Git Project Plugin/quick_usb
+#    path: /Users/mrrahul/Documents/packages/quick_usb
     path: /Users/bikrammeher/Documents/packages/quick_usb
 #    path: E:/Flutter_Projects/packages/quick_usb
   quick_blue:
+#    path: /Users/mrrahul/Documents/packages/quick_blue/quick_blue
     path: /Users/bikrammeher/Documents/packages/quick_blue/quick_blue
 #     path: F:/ANDROID/Git Project Plugin/quick_blue/quick_blue
 #        path: E:/Flutter_Projects/packages/quick_blue/quick_blue
@@ -145,6 +149,7 @@ dependencies:
   firebase_messaging_windows:
 #    path: E:/Flutter_Projects/packages/flutter_push_receiver-master
 #    path: /Users/bikrammeher/Documents/bikram/package/flutter_push_receiver-master
+#    path: /Users/mrrahul/Documents/packages/flutter_push_receiver-master
     path: /Users/bikrammeher/Documents/packages/flutter_push_receiver-master
 #     path: F:\ANDROID\Git Project Plugin\firebase_messaging_windows
 
