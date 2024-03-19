@@ -1,0 +1,322 @@
+name: magnipos
+description: A complete POS for Woocommerce
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.5+7
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Ui and widgets
+  cupertino_icons: ^1.0.5
+  animated_text_kit: ^4.2.2
+  flutter_svg: ^2.0.7
+  data_table_2: ^2.5.3
+  shimmer: ^3.0.0
+  badges: ^2.0.3
+  animator: ^3.3.0
+  html: ^0.15.4
+  lottie: ^2.4.0
+  sticky_headers: ^0.3.0+2
+  google_fonts: ^5.1.0
+  flutter_staggered_animations: ^1.1.1
+  charts_flutter: ^0.12.0
+  flutter_staggered_grid_view: ^0.6.2
+  simple_tooltip:
+    git: https://github.com/Bikram40/simple_tooltp.git
+  #    path: /Users/bikrammeher/Documents/packages/simple_tooltp
+  virtual_keyboard_multi_language:
+    git: https://github.com/Bikram40/virtual_keyboard_multi_language.git
+  #    path: /Users/bikrammeher/Documents/packages/virtual_keyboard_multi_language
+  #  desktop_webview_window: ^0.1.6
+  code_editor: ^1.3.2
+  flutter_highlight: ^0.7.0
+  recase: ^4.1.0
+  ai_barcode_scanner: ^0.0.7
+  desktop_drop: ^0.4.1
+  dotted_line: ^3.2.2
+  bot_toast: ^4.0.4
+  advanced_infinite_scroll:
+    git: https://github.com/bikram0000/advanced_infinite_scroll.git
+  #    path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
+#    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
+
+  #tools and utils
+  #  fl_country_code_picker: ^0.0.4
+  dio: ^5.3.2
+  number_to_indian_words: ^1.0.1
+  queue: ^3.1.0+2
+  numeral: ^2.0.1
+  #  desktop_window: ^0.4.0
+  window_manager: ^0.3.5
+  wakelock: ^0.6.2
+  package_info_plus: ^4.0.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  intl:
+  flutter_cache:
+    git: https://github.com/Bikram40/flutter_cache.git
+  file_picker: ^5.3.2
+  html_unescape: ^2.0.0
+  flutter_html: ^2.2.1
+  #  qr_flutter: ^4.0.0
+  url_launcher: ^6.1.11
+  platform_device_id: ^1.0.1
+  win_toast: ^0.3.0
+  quick_notify: ^0.2.1
+  crypto: ^3.0.3
+  barcode_widget: ^2.0.4
+  image: ^4.0.17
+  #  flutter_barcode_listener: ^0.1.3
+  php_serializer: ^1.1.0
+  filesize: ^2.0.1
+  share_plus: ^7.1.0
+  process_run: ^0.13.0
+  csv: ^5.0.2
+
+
+
+  #windows
+  uni_links_desktop: ^0.1.6
+  system_tray: ^2.0.3
+  just_audio_windows: ^0.2.0
+  launch_at_startup: ^0.2.2
+  windows_notification: ^0.0.3
+
+  #web
+  js: ^0.6.7
+  web_blue:
+    git: https://github.com/woodemi/web_blue.dart.git
+  usb_device_web: ^1.0.0
+  image_network: ^2.5.4+1
+  #  fajax:
+  #    path: F:/ANDROID/Git Project Plugin/fajax
+  #    path: /Users/bikrammeher/Documents/bikram/package/fajax
+
+
+
+  #PRINTER
+  esc_pos_utils:
+    git: https://github.com/onix-informatika/esc_pos_utils.git
+  flutter_star_prnt: ^2.4.1
+  sunmi_printer_plus: ^2.1.1
+  printing: ^5.11.0
+  win_ble: ^1.0.1
+#  win_ble:
+#    git: https://github.com/rohitsangwan01/win_ble.git
+  diacritic: ^0.1.4
+  quick_usb:
+#    path: F:/ANDROID/Git Project Plugin/quick_usb
+#    path: /Users/mrrahul/Documents/packages/quick_usb
+    path: /Users/bikrammeher/Documents/packages/quick_usb
+#    path: E:/Flutter_Projects/packages/quick_usb
+  quick_blue:
+#    path: /Users/mrrahul/Documents/packages/quick_blue/quick_blue
+    path: /Users/bikrammeher/Documents/packages/quick_blue/quick_blue
+#     path: F:/ANDROID/Git Project Plugin/quick_blue/quick_blue
+#        path: E:/Flutter_Projects/packages/quick_blue/quick_blue
+  #     git:
+  #       url: https://github.com/Bikram40/quick_blue.git
+  #       ref: master
+  #       path: quick_blue/
+
+  #firebase
+  firebase_remote_config: ^4.2.3
+  firebase_messaging: ^14.6.4
+  firebase_messaging_windows:
+#    path: E:/Flutter_Projects/packages/flutter_push_receiver-master
+#    path: /Users/bikrammeher/Documents/bikram/package/flutter_push_receiver-master
+#    path: /Users/mrrahul/Documents/packages/flutter_push_receiver-master
+    path: /Users/bikrammeher/Documents/packages/flutter_push_receiver-master
+#     path: F:\ANDROID\Git Project Plugin\firebase_messaging_windows
+
+#  firebase_messaging:
+    #    path: 'E:/packages/firebase_messaging/firebase_messaging-14.2.1'
+#    path: /Users/bikrammeher/Documents/packages/firebase_messaging/firebase_messaging-14.2.1
+#    path: /Users/bikrammeher/Documents/bikram/package/firebase_messaging/firebase_messaging-14.2.1
+  #    path: "F:/ANDROID/Git Project Plugin/firebase_messaging/firebase_messaging-14.2.1"
+  firebase_crashlytics: ^3.3.3
+  firebase_core: ^2.15.0
+  firebase_analytics: ^10.4.3
+
+  # development & testing..
+  #  logger: ^1.1.0
+  #  objectbox: ^1.4.1
+  #  objectbox:
+  #    git:
+  #      url: https://github.com/objectbox/objectbox-dart.git
+  #      path: objectbox/
+  #  objectbox_flutter_libs: ^1.4.1
+getx_translator:
+  path: "lib"
+  output_path: "assets/language"
+  sheet_url: "https://script.google.com/macros/s/AKfycbyeZxLNJmllkrvoin1u85zEb98GOn8ayzmBzcu570ID2KijqePyMNBQeCD0gfiGRO8e/exec"
+  sheet_name: "magni_pos"
+  sheet_id: "13IFY2ltR5kbXsoi4k4vzLrV9YxTDTm2Asq5z3afNtXg"
+
+dependency_overrides:
+  meta: ^1.9.1
+  intl: ^0.18.0
+  ffi: ^2.0.1
+  win32: ^3.0.0
+  flutter_svg: ^0.22.0
+  webview_flutter: ^3.0.4
+  image: 4.0.17
+  http: ^1.0.0
+  xml: ^6.3.0
+  js: ^0.6.7
+  pdf: ^3.10.4
+  flutter_layout_grid: ^2.0.5
+  flutter_math_fork: ^0.7.2
+  firebase_messaging_web:
+    git: https://github.com/Bikram40/firebase_messageing_web.git
+#    path: /Users/bikrammeher/Documents/packages/firebase_messageing_web
+
+dev_dependencies:
+  icons_launcher: ^2.1.2
+  import_path_converter: ^1.0.1
+  import_sorter: ^4.6.0
+  build_runner: ^2.4.6
+#  rename: ^2.1.1
+  getx_translator:
+    git: https://github.com/bikram0000/getx_translator.git
+#    path: /Users/bikrammeher/Documents/Bikram/getx_translator
+  flutter_test:
+    sdk: flutter
+
+icons_launcher:
+  image_path: "assets/image/icons_launcher.png"
+  platforms:
+    android:
+      enable: false
+    ios:
+      enable: false
+    windows:
+      enable: false
+    macos:
+      enable: false
+    linux:
+      enable: false
+    web:
+      enable: true
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/image/
+    - assets/image/splashscreen_back.jpeg
+    - assets/image/imge_loader.gif
+    - assets/anim/
+    - assets/anim/location_anim.json
+    - assets/anim/no_restaurant_anim.json
+    - assets/anim/empty_basket.json
+    - assets/anim/order_placed.json
+    - assets/audio/
+    - assets/audio/slow_spring.mp3
+    - assets/image/user-_1_.png
+    - assets/image/dashboard.png
+    - assets/image/setting.png
+    - assets/image/exit.png
+    - assets/image/order (8).png
+    - assets/image/report-_1_.png
+    - assets/image/cart-_1_.png
+    - assets/image/back (1).png
+    - assets/image/cursor (1).png
+    - assets/image/user-_2_.png
+    - assets/image/sleep-mode.png
+    - assets/image/calendar-_1_.png
+    - assets/image/setting fill.png
+    - assets/image/order_click.png
+    - assets/image/product.png
+    - assets/image/Ellipse 24.png
+    - assets/image/pos_unclick.png
+    - assets/image/product fill.png
+    - assets/image/insert-picture-icon-_1_.png
+    - assets/image/Group 1080.png
+    - assets/image/Group 1163.png
+    - assets/image/search (3).png
+    - assets/image/report fill.png
+    - assets/image/Rectangle 2197 - Outline.png
+    - assets/image/Group 1077.png
+    - assets/image/Union 1.png
+    - assets/image/edit-text.png
+    - assets/image/bar-chart_1.png
+    - assets/image/Group 1167.png
+    - assets/image/checked (2).png
+    - assets/image/refund-_1_.png
+    - assets/image/group-_1_.png
+    - assets/image/cancel (3).png
+    - assets/image/wall-clock-_1_.png
+    - assets/image/updating.png
+    - assets/image/pause.png
+    - assets/image/Group 1179.png
+    - assets/image/shopping-center.png
+    - assets/image/mobile-payment.png
+    - assets/image/credit-card-_3_.png
+    - assets/svg/
+    - pubspec.yaml
+    - assets/image/app_icon.ico
+    - assets/language/
+    - assets/exe/
+
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
