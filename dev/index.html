@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="./">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="MagniPOS POS for Woocommerce">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dinein">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>MagniPOS</title>
+    <link rel="manifest" href="manifest.json">
+    <script type="text/javascript" src="https://unpkg.com/@zxing/library@0.19.1/umd/index.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "2231969338";
+<!--  var dartPdfJsVersion = "3.2.146";-->
+
+    </script>
+
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging-compat.js"></script>
+<!--    <script src="firebase_msg.js" defer></script>-->
+
+    <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!--  <script src="app.js" defer></script>-->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <style type="text/css">
+    .loader {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				border: 16px solid #f3f3f3;
+				border-top: 16px solid #00CD97;
+				border-radius: 50%;
+				width: 200px;
+				height: 200px;
+				animation: spinloader 2s linear infinite;
+				margin: auto;
+
+		}
+
+		.loader img {
+			width: 200px;
+				height: 200px;
+			animation: spinlogo 2s linear infinite;
+			background:transparent center center no-repeat;
+			border-radius: 50%;
+		}
+
+		@keyframes spinloader {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes spinlogo {
+			0% {
+				transform: rotate(360deg);
+			}
+
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+		@media only screen and (max-width: 480px) {
+
+			.loader img {
+				width: 75px;
+				height: 75px;
+			animation: spinlogo 2s linear infinite;
+			background:transparent center center no-repeat;
+			border-radius: 50%;
+		}
+		.loader {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				border: 6px solid #f3f3f3;
+				border-top: 6px solid #00CD97;
+				border-radius: 50%;
+				width: 75px;
+				height: 75px;
+				animation: spinloader 2s linear infinite;
+				margin: auto;
+
+			}
+		}
+
+    </style>
+</head>
+<body>
+
+<div class="loader">
+
+    <img src="icons/Icon-512.png">
+</div>
+
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+ var baseherf  = document.getElementsByTagName('base')[0].href;
+      _flutter.loader.loadEntrypoint({
+      entrypointUrl:baseherf+"main.dart.js?v=" +serviceWorkerVersion,
+        serviceWorker: {
+        serviceWorkerUrl: baseherf+"flutter_service_worker.js?v=" +serviceWorkerVersion,
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+
+</script>
+</body>
+</html>
