@@ -15,10 +15,10 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.5+7
+version: 1.0.6+7
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.19.6 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -61,7 +61,7 @@ dependencies:
   bot_toast: ^4.0.4
   advanced_infinite_scroll:
     git: https://github.com/bikram0000/advanced_infinite_scroll.git
-  #    path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
+#      path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
 #    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
 
   #tools and utils
@@ -96,6 +96,11 @@ dependencies:
   share_plus: ^7.1.0
   process_run: ^0.13.0
   csv: ^5.0.2
+  geolocator: ^10.1.0
+  vibration: ^1.8.4
+  scaled_app:
+    git: https://github.com/selvam920/scaled_app.git
+
 
 
 
@@ -128,14 +133,18 @@ dependencies:
 #  win_ble:
 #    git: https://github.com/rohitsangwan01/win_ble.git
   diacritic: ^0.1.4
+  request_permission:
+    git: https://github.com/Bikram40/request_permission.git
   quick_usb:
 #    path: F:/ANDROID/Git Project Plugin/quick_usb
 #    path: /Users/mrrahul/Documents/packages/quick_usb
     path: /Users/bikrammeher/Documents/packages/quick_usb
 #    path: E:/Flutter_Projects/packages/quick_usb
+#     path: /Users/magnigeeksm2/Documents/package/quick_usb
   quick_blue:
 #    path: /Users/mrrahul/Documents/packages/quick_blue/quick_blue
     path: /Users/bikrammeher/Documents/packages/quick_blue/quick_blue
+#    path: /Users/magnigeeksm2/Documents/package/quick_blue/quick_blue
 #     path: F:/ANDROID/Git Project Plugin/quick_blue/quick_blue
 #        path: E:/Flutter_Projects/packages/quick_blue/quick_blue
   #     git:
@@ -146,12 +155,13 @@ dependencies:
   #firebase
   firebase_remote_config: ^4.2.3
   firebase_messaging: ^14.6.4
-  firebase_messaging_windows:
+  firebase_push_receiver:
 #    path: E:/Flutter_Projects/packages/flutter_push_receiver-master
 #    path: /Users/bikrammeher/Documents/bikram/package/flutter_push_receiver-master
 #    path: /Users/mrrahul/Documents/packages/flutter_push_receiver-master
-    path: /Users/bikrammeher/Documents/packages/flutter_push_receiver-master
-#     path: F:\ANDROID\Git Project Plugin\firebase_messaging_windows
+    path: /Users/bikrammeher/Documents/packages/firebase_push_receiver
+#     path: F:\ANDROID\Git Project Plugin\firebase_push_receiver
+#     path: /Users/magnigeeksm2/Documents/package/firebase_push_receiver
 
 #  firebase_messaging:
     #    path: 'E:/packages/firebase_messaging/firebase_messaging-14.2.1'
@@ -200,6 +210,7 @@ dev_dependencies:
   import_path_converter: ^1.0.1
   import_sorter: ^4.6.0
   build_runner: ^2.4.6
+  flutter_platform_versioning: ^1.0.1
 #  rename: ^2.1.1
   getx_translator:
     git: https://github.com/bikram0000/getx_translator.git
