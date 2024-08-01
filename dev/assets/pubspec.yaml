@@ -98,6 +98,7 @@ dependencies:
   csv: ^5.0.2
   geolocator: ^10.1.0
   vibration: ^1.8.4
+  linkfy_text: ^1.1.6
   scaled_app:
     git: https://github.com/selvam920/scaled_app.git
 
@@ -213,8 +214,9 @@ dev_dependencies:
   flutter_platform_versioning: ^1.0.1
 #  rename: ^2.1.1
   getx_translator:
-    git: https://github.com/bikram0000/getx_translator.git
+#    git: https://github.com/bikram0000/getx_translator.git
 #    path: /Users/bikrammeher/Documents/Bikram/getx_translator
+    path: /Users/bikrammeher/Documents/packages/getx_translator
   flutter_test:
     sdk: flutter
 
