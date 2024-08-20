@@ -212,15 +212,9 @@ dev_dependencies:
     path: /Users/bikrammeher/Documents/pget
   #  rename: ^2.1.1
   getx_translator:
-<<<<<<< HEAD
     git: https://github.com/bikram0000/getx_translator.git
     #    path: /Users/bikrammeher/Documents/Bikram/getx_translator
   #    path: /Users/bikrammeher/Documents/packages/getx_translator
-=======
-#    git: https://github.com/bikram0000/getx_translator.git
-#    path: /Users/bikrammeher/Documents/Bikram/getx_translator
-    path: /Users/bikrammeher/Documents/packages/getx_translator
->>>>>>> defd294fc5bfdeaa6ee6b68f0c712341ad2befae
   flutter_test:
     sdk: flutter
 
