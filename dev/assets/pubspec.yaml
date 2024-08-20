@@ -61,8 +61,8 @@ dependencies:
   bot_toast: ^4.0.4
   advanced_infinite_scroll:
     git: https://github.com/bikram0000/advanced_infinite_scroll.git
-#      path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
-#    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
+  #      path: /Users/bikrammeher/Documents/packages/advance_infinite_scroll
+  #    path: F:\ANDROID\Git Project Plugin\advanced_infinite_scroll
 
   #tools and utils
   #  fl_country_code_picker: ^0.0.4
@@ -86,7 +86,6 @@ dependencies:
   url_launcher: ^6.1.11
   platform_device_id: ^1.0.1
   win_toast: ^0.3.0
-  quick_notify: ^0.2.1
   crypto: ^3.0.3
   barcode_widget: ^2.0.4
   image: ^4.0.17
@@ -98,8 +97,10 @@ dependencies:
   csv: ^5.0.2
   geolocator: ^10.1.0
   vibration: ^1.8.4
+  linkfy_text: ^1.1.6
   scaled_app:
     git: https://github.com/selvam920/scaled_app.git
+  pinput: ^5.0.0
 
 
 
@@ -130,47 +131,39 @@ dependencies:
   sunmi_printer_plus: ^2.1.1
   printing: ^5.11.0
   win_ble: ^1.0.1
-#  win_ble:
-#    git: https://github.com/rohitsangwan01/win_ble.git
+  #  win_ble:
+  #    git: https://github.com/rohitsangwan01/win_ble.git
   diacritic: ^0.1.4
   request_permission:
     git: https://github.com/Bikram40/request_permission.git
   quick_usb:
-#    path: F:/ANDROID/Git Project Plugin/quick_usb
-#    path: /Users/mrrahul/Documents/packages/quick_usb
     path: /Users/bikrammeher/Documents/packages/quick_usb
-#    path: E:/Flutter_Projects/packages/quick_usb
-#     path: /Users/magnigeeksm2/Documents/package/quick_usb
   quick_blue:
-#    path: /Users/mrrahul/Documents/packages/quick_blue/quick_blue
     path: /Users/bikrammeher/Documents/packages/quick_blue/quick_blue
-#    path: /Users/magnigeeksm2/Documents/package/quick_blue/quick_blue
-#     path: F:/ANDROID/Git Project Plugin/quick_blue/quick_blue
-#        path: E:/Flutter_Projects/packages/quick_blue/quick_blue
+  #     path: F:/ANDROID/Git Project Plugin/quick_blue/quick_blue
+  #        path: E:/Flutter_Projects/packages/quick_blue/quick_blue
   #     git:
   #       url: https://github.com/Bikram40/quick_blue.git
   #       ref: master
   #       path: quick_blue/
 
   #firebase
-  firebase_remote_config: ^4.2.3
-  firebase_messaging: ^14.6.4
+  platform_local_notifications: ^1.0.1
+  firebase_remote_config: ^5.0.4
+  firebase_messaging: ^15.0.4
+  notifications_utils:
+    git: https://github.com/bikram0000/notifications_utils.git
   firebase_push_receiver:
-#    path: E:/Flutter_Projects/packages/flutter_push_receiver-master
-#    path: /Users/bikrammeher/Documents/bikram/package/flutter_push_receiver-master
-#    path: /Users/mrrahul/Documents/packages/flutter_push_receiver-master
     path: /Users/bikrammeher/Documents/packages/firebase_push_receiver
-#     path: F:\ANDROID\Git Project Plugin\firebase_push_receiver
-#     path: /Users/magnigeeksm2/Documents/package/firebase_push_receiver
 
-#  firebase_messaging:
+    #  firebase_messaging:
     #    path: 'E:/packages/firebase_messaging/firebase_messaging-14.2.1'
-#    path: /Users/bikrammeher/Documents/packages/firebase_messaging/firebase_messaging-14.2.1
-#    path: /Users/bikrammeher/Documents/bikram/package/firebase_messaging/firebase_messaging-14.2.1
+  #    path: /Users/bikrammeher/Documents/packages/firebase_messaging/firebase_messaging-14.2.1
+  #    path: /Users/bikrammeher/Documents/bikram/package/firebase_messaging/firebase_messaging-14.2.1
   #    path: "F:/ANDROID/Git Project Plugin/firebase_messaging/firebase_messaging-14.2.1"
-  firebase_crashlytics: ^3.3.3
-  firebase_core: ^2.15.0
-  firebase_analytics: ^10.4.3
+  firebase_crashlytics: ^4.0.4
+  #  firebase_core: ^2.15.0
+  firebase_analytics: ^11.2.1
 
   # development & testing..
   #  logger: ^1.1.0
@@ -191,7 +184,7 @@ dependency_overrides:
   meta: ^1.9.1
   intl: ^0.18.0
   ffi: ^2.0.1
-  win32: ^3.0.0
+  win32: ^5.4.0
   flutter_svg: ^0.22.0
   webview_flutter: ^3.0.4
   image: 4.0.17
@@ -201,9 +194,13 @@ dependency_overrides:
   pdf: ^3.10.4
   flutter_layout_grid: ^2.0.5
   flutter_math_fork: ^0.7.2
+  uuid: ^4.4.0
+  flutter_local_notifications: ^17.2.2
   firebase_messaging_web:
     git: https://github.com/Bikram40/firebase_messageing_web.git
-#    path: /Users/bikrammeher/Documents/packages/firebase_messageing_web
+  #    path: /Users/bikrammeher/Documents/packages/firebase_messageing_web
+#  pget:
+#    path: /Users/bikrammeher/Documents/pget
 
 dev_dependencies:
   icons_launcher: ^2.1.2
@@ -211,10 +208,13 @@ dev_dependencies:
   import_sorter: ^4.6.0
   build_runner: ^2.4.6
   flutter_platform_versioning: ^1.0.1
-#  rename: ^2.1.1
+  pget:
+    path: /Users/bikrammeher/Documents/pget
+  #  rename: ^2.1.1
   getx_translator:
     git: https://github.com/bikram0000/getx_translator.git
-#    path: /Users/bikrammeher/Documents/Bikram/getx_translator
+    #    path: /Users/bikrammeher/Documents/Bikram/getx_translator
+  #    path: /Users/bikrammeher/Documents/packages/getx_translator
   flutter_test:
     sdk: flutter
 
