@@ -3,11 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
+<<<<<<< HEAD
 const RESOURCES = {"flutter_bootstrap.js": "986fb2e51b53278494c629e74b0031a8",
 "version.json": "992c5f34d0a0556191c3c419d3679619",
 "index.html": "004c0e913f54a9689030275176568d97",
 "/": "004c0e913f54a9689030275176568d97",
 "main.dart.js": "6c78bdb39d5774501c7151f46a3bd641",
+=======
+const RESOURCES = {"flutter_bootstrap.js": "1a849e50997036cd920511d7de0cf6d3",
+"version.json": "992c5f34d0a0556191c3c419d3679619",
+"index.html": "1a93a7a232af69ca7ce17a57f4de1212",
+"/": "1a93a7a232af69ca7ce17a57f4de1212",
+"main.dart.js": "e72ec4e7c279a85e733b1addcd17b93a",
+>>>>>>> defd294fc5bfdeaa6ee6b68f0c712341ad2befae
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
 "favicon.png": "df2ee735bceee0c9e7fc5e6e3822f073",
 "icons/Icon-192.png": "5bdd263eeb3abf30aa0abb1384ce8685",
@@ -17,8 +25,13 @@ const RESOURCES = {"flutter_bootstrap.js": "986fb2e51b53278494c629e74b0031a8",
 "manifest.json": "6ceb986ff7f843addabd8962a2f65404",
 "firebase-config.js": "05f22d6d5a0e5bbec1052cdf3c91d758",
 "assets/AssetManifest.json": "56968ac6ac8a489ee69ac27b7905b7f1",
+<<<<<<< HEAD
 "assets/NOTICES": "321213915a6727278b27b70df244fae4",
 "assets/pubspec.yaml": "70184b23cabe31a18ef6c6db6d257b5c",
+=======
+"assets/NOTICES": "078132c9c17e7e4b20037980288dd52d",
+"assets/pubspec.yaml": "99facf6d8cf70bc9ce1f32ab1222f6d7",
+>>>>>>> defd294fc5bfdeaa6ee6b68f0c712341ad2befae
 "assets/FontManifest.json": "65b7999f506ccbd03f05fd59b95b86a7",
 "assets/AssetManifest.bin.json": "cb08460e3657a47c9b104504edd3c0d6",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
