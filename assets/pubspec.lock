@@ -303,14 +303,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.5"
-  cryptography:
-    dependency: transitive
-    description:
-      name: cryptography
-      sha256: d146b76d33d94548cf035233fbc2f4338c1242fa119013bead807d033fc4ae05
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.7.0"
   csslib:
     dependency: transitive
     description:
@@ -845,16 +837,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.6.6"
-  get_secure_storage:
-    dependency: "direct main"
-    description:
-      name: get_secure_storage
-      sha256: "75b28ecba9d39dbb14f40df95f978cf834afa5719f625c87c5683ea1d7c84faf"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
   get_storage:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: get_storage
       sha256: "39db1fffe779d0c22b3a744376e86febe4ade43bf65e06eab5af707dc84185a2"
@@ -1491,10 +1475,10 @@ packages:
     dependency: transitive
     description:
       name: protobuf
-      sha256: "68645b24e0716782e58948f8467fd42a880f255096a821f9e7d0ec625b00c84d"
+      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
+    version: "2.1.0"
   provider:
     dependency: transitive
     description:
@@ -1545,14 +1529,14 @@ packages:
   quick_blue_macos:
     dependency: transitive
     description:
-      path: "../../../packages/quick_blue/quick_blue_macos"
+      path: "../../../../../packages/quick_blue/quick_blue_macos"
       relative: true
     source: path
     version: "0.3.0-dev.0"
   quick_blue_platform_interface:
     dependency: transitive
     description:
-      path: "../../../packages/quick_blue/quick_blue_platform_interface"
+      path: "../../../../../packages/quick_blue/quick_blue_platform_interface"
       relative: true
     source: path
     version: "0.3.0-dev.0"

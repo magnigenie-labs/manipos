@@ -230,12 +230,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "cryptography",
-      "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/cryptography-2.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "csslib",
       "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/csslib-0.17.3",
       "packageUri": "lib/",
@@ -642,12 +636,6 @@
       "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get-4.6.6",
       "packageUri": "lib/",
       "languageVersion": "2.15"
-    },
-    {
-      "name": "get_secure_storage",
-      "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get_secure_storage-1.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
     },
     {
       "name": "get_storage",
@@ -1125,9 +1113,9 @@
     },
     {
       "name": "protobuf",
-      "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-3.1.0",
+      "rootUri": "file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "2.12"
     },
     {
       "name": "provider",
@@ -1167,13 +1155,13 @@
     },
     {
       "name": "quick_blue_macos",
-      "rootUri": "../../../../packages/quick_blue/quick_blue_macos",
+      "rootUri": "../../../../../../packages/quick_blue/quick_blue_macos",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "quick_blue_platform_interface",
-      "rootUri": "../../../../packages/quick_blue/quick_blue_platform_interface",
+      "rootUri": "../../../../../../packages/quick_blue/quick_blue_platform_interface",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -1706,7 +1694,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-08-30T07:51:07.532039Z",
+  "generated": "2024-08-20T04:52:36.087091Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///Users/bikrammeher/Documents/flutter",

@@ -190,10 +190,6 @@ crypto
 3.4
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/crypto-3.0.5/
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/crypto-3.0.5/lib/
-cryptography
-3.1
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/cryptography-2.7.0/
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/cryptography-2.7.0/lib/
 csslib
 2.19
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/csslib-0.17.3/
@@ -434,10 +430,6 @@ get
 2.15
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get-4.6.6/
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get-4.6.6/lib/
-get_secure_storage
-3.3
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get_secure_storage-1.0.5/
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get_secure_storage-1.0.5/lib/
 get_storage
 2.16
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/get_storage-2.1.1/
@@ -739,9 +731,9 @@ process_run
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/process_run-0.13.3+1/
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/process_run-0.13.3+1/lib/
 protobuf
-2.19
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-3.1.0/
-file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-3.1.0/lib/
+2.12
+file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-2.1.0/
+file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/protobuf-2.1.0/lib/
 provider
 2.12
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/provider-6.1.2/
@@ -1082,6 +1074,10 @@ yaml_edit
 3.0
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/yaml_edit-2.2.1/
 file:///Users/bikrammeher/.pub-cache/hosted/pub.dev/yaml_edit-2.2.1/lib/
+magnipos
+2.19
+file:///Users/bikrammeher/Documents/bikram/magnipos/build/web/assets/
+file:///Users/bikrammeher/Documents/bikram/magnipos/build/web/assets/lib/
 _macros
 3.4
 file:///Users/bikrammeher/Documents/flutter/bin/cache/dart-sdk/pkg/_macros/
@@ -1106,10 +1102,6 @@ flutter_web_plugins
 3.2
 file:///Users/bikrammeher/Documents/flutter/packages/flutter_web_plugins/
 file:///Users/bikrammeher/Documents/flutter/packages/flutter_web_plugins/lib/
-magnipos
-2.19
-file:///Users/bikrammeher/Documents/others/magnipos/assets/
-file:///Users/bikrammeher/Documents/others/magnipos/assets/lib/
 firebase_push_receiver
 3.0
 file:///Users/bikrammeher/Documents/packages/firebase_push_receiver/

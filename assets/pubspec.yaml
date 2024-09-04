@@ -155,7 +155,6 @@ dependencies:
     git: https://github.com/bikram0000/notifications_utils.git
   firebase_push_receiver:
     path: /Users/bikrammeher/Documents/packages/firebase_push_receiver
-
     #  firebase_messaging:
     #    path: 'E:/packages/firebase_messaging/firebase_messaging-14.2.1'
   #    path: /Users/bikrammeher/Documents/packages/firebase_messaging/firebase_messaging-14.2.1
@@ -208,8 +207,8 @@ dev_dependencies:
   import_sorter: ^4.6.0
   build_runner: ^2.4.6
   flutter_platform_versioning: ^1.0.1
-  pget:
-    path: /Users/bikrammeher/Documents/pget
+#  pget:
+#    path: /Users/bikrammeher/Documents/pget
   #  rename: ^2.1.1
   getx_translator:
     git: https://github.com/bikram0000/getx_translator.git
