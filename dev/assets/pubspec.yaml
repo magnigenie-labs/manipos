@@ -75,7 +75,7 @@ dependencies:
   wakelock: ^0.6.2
   package_info_plus: ^4.0.2
   get: ^4.6.5
-  get_storage: ^2.1.1
+  get_secure_storage: ^1.0.5
   intl:
   flutter_cache:
     git: https://github.com/Bikram40/flutter_cache.git
@@ -155,7 +155,6 @@ dependencies:
     git: https://github.com/bikram0000/notifications_utils.git
   firebase_push_receiver:
     path: /Users/bikrammeher/Documents/packages/firebase_push_receiver
-
     #  firebase_messaging:
     #    path: 'E:/packages/firebase_messaging/firebase_messaging-14.2.1'
   #    path: /Users/bikrammeher/Documents/packages/firebase_messaging/firebase_messaging-14.2.1
@@ -208,8 +207,8 @@ dev_dependencies:
   import_sorter: ^4.6.0
   build_runner: ^2.4.6
   flutter_platform_versioning: ^1.0.1
-  pget:
-    path: /Users/bikrammeher/Documents/pget
+#  pget:
+#    path: /Users/bikrammeher/Documents/pget
   #  rename: ^2.1.1
   getx_translator:
     git: https://github.com/bikram0000/getx_translator.git
